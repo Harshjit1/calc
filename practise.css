@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+p{
+  font-size: 50px;
+  font-family: style script;
+text-align: center;
+}
+.intro{
+  width: 100%;
+  background-color: rgba(193, 232, 219,0.7);
+  border: 1px solid rgba(125, 150, 142, 0.7);
+
+}
+.intro:hover{
+  background-color: rgba(193, 232, 219,0.5);
+  border: 1px solid rgba(125, 150, 142, 0.5);
+
+}
+#calculator{
+  background-color: rgb(238, 236, 236);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  height: auto;
+  width: 24%;
+  margin: 5px auto;
+  border-radius: 5px;
+}
+#display{
+  width: 80%;
+  height: 30px;
+  margin: 5px 15px;
+  border-radius: 5px;
+}
+.button-contain{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button{
+  width: 25% ;
+  margin: 5px 5px;
+  height: 35px;
+  background-color:  rgba(171, 171, 171, 0.416);
+  border-color: rgba(72, 71, 71,0.5);
+}
+.button:hover{
+  background-color:  rgba(171, 171, 171, 0.2);
+  border-color: rgba(72, 71, 71,0.3);
+}
